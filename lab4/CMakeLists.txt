@@ -28,7 +28,7 @@ message(" + Znaleziono źródła bez main.cpp: ${SOURCES_WITHOUT_MAIN}")
 
 
 ############ dodanie binarki z mainem i danymi studenta
-add_executable(${PROJECT_NAME} ${HEADERS} ${SOURCES})
+add_executable(${PROJECT_NAME} ${HEADERS} ${SOURCES} rectangle.h rectangle.cpp circle.h circle.cpp circle.h circle.cpp rectangle.cpp rectangle.h shapecomposite.cpp shapecomposite.h)
 
 
 ############ KOMENDA: make run

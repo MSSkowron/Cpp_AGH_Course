@@ -58,7 +58,6 @@ namespace Shapes
     class Shape
     {
     public:
-        /** czy dany punkt jest wewnatrz figury czy nie **/
         virtual bool isIn(int x, int y) const = 0;
     };
 }

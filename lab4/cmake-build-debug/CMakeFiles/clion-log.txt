@@ -1,0 +1,10 @@
+/snap/clion/184/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_MAKE_PROGRAM=/snap/clion/184/bin/ninja/linux/ninja -G Ninja /home/mateuszskowron/CLionProjects/LabCpp/LabCpp/lab4
+Katalog do zbudowanego projektu: /home/mateuszskowron/CLionProjects/LabCpp/LabCpp/lab4/cmake-build-debug
+ + Znaleziono nagłówki: /home/mateuszskowron/CLionProjects/LabCpp/LabCpp/lab4/circle.h;/home/mateuszskowron/CLionProjects/LabCpp/LabCpp/lab4/rectangle.h;/home/mateuszskowron/CLionProjects/LabCpp/LabCpp/lab4/shape.h;/home/mateuszskowron/CLionProjects/LabCpp/LabCpp/lab4/shapecomposite.h
+ + Znaleziono źródła: /home/mateuszskowron/CLionProjects/LabCpp/LabCpp/lab4/circle.cpp;/home/mateuszskowron/CLionProjects/LabCpp/LabCpp/lab4/main.cpp;/home/mateuszskowron/CLionProjects/LabCpp/LabCpp/lab4/rectangle.cpp;/home/mateuszskowron/CLionProjects/LabCpp/LabCpp/lab4/shapecomposite.cpp
+ + Znaleziono źródła bez main.cpp: /home/mateuszskowron/CLionProjects/LabCpp/LabCpp/lab4/circle.cpp;/home/mateuszskowron/CLionProjects/LabCpp/LabCpp/lab4/rectangle.cpp;/home/mateuszskowron/CLionProjects/LabCpp/LabCpp/lab4/shapecomposite.cpp
+ + Znaleziono pliki testów: /home/mateuszskowron/CLionProjects/LabCpp/LabCpp/lab4/tests/shapesTests.cpp
+ + katalog nagłówków: 
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/mateuszskowron/CLionProjects/LabCpp/LabCpp/lab4/cmake-build-debug
