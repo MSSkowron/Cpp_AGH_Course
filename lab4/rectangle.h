@@ -1,7 +1,3 @@
-//
-// Created by mateuszskowron on 4/16/22.
-//
-
 #ifndef ZAD4SHAPEDRAWING_RECTANGLE_H
 #define ZAD4SHAPEDRAWING_RECTANGLE_H
 #include "shape.h"

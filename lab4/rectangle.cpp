@@ -1,7 +1,3 @@
-//
-// Created by mateuszskowron on 4/16/22.
-//
-
 #include "rectangle.h"
 
 bool Shapes::Rectangle::isIn(int x, int y) const {

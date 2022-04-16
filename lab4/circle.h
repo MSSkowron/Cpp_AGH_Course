@@ -1,12 +1,7 @@
-//
-// Created by mateuszskowron on 4/16/22.
-//
-
 #ifndef ZAD4SHAPEDRAWING_CIRCLE_H
 #define ZAD4SHAPEDRAWING_CIRCLE_H
 #include "shape.h"
 namespace Shapes{
-
     class Circle:public Shapes::Shape {
     private:
         Shapes::Point center;
