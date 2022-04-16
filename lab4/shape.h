@@ -2,10 +2,6 @@
 #define SHAPE_H
 
 /** @file stage.h
-@brief Implementacja klasy czysto abstrakcyjnej `Shape`, majacej funkcje:
-1. `bool isIn(int x, int y) const = 0;`, ktora zwraca informacje czy dany punkt jest wewnatrz figury czy nie
-2. Proszę zaimplementować klasę `Rectangle` dziedziczącą po `Shape` i implementującą powyższą metodę.
-   Implementacja klasy powinna być dokonana w nowo-utworzonych plikach: rectangle.h i rectangle.cpp
 3. Proszę zaimplementować klasę `Circle` dziedziczącą po `Shape` i implementującą jej metodę.
    Implementacja klasy powinna być dokonana w nowo-utworzonych plikach: circle.h i circle.cpp
 4. Proszę zaimplementować klasę-kompozyt `ShapeComposite` dziedziczącą po `Shape` i implementującą jej metodę.
@@ -54,15 +50,17 @@ Mozna tworzyc dowolna ilosc metod pomocniczych, jednakze aby byly one prywatne.
 
 namespace Shapes
 {
-struct Point
-{
-    int x_, y_;
-};
+    struct Point
+    {
+        int x_, y_;
+    };
 
-class Shape
-{
-    // TODO:
-};
-} // namespace Shapes
+    class Shape
+    {
+    public:
+        /** czy dany punkt jest wewnatrz figury czy nie **/
+        virtual bool isIn(int x, int y) const = 0;
+    };
+}
 
 #endif // SHAPE_H
