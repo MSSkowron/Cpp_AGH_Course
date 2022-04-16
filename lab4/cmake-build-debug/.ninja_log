@@ -20,3 +20,7 @@
 3	98	1650109227889359922	tests/CMakeFiles/tests.dir/__/rectangle.cpp.o	af12df2bcfedbc1f
 2	111	1650109227909360343	tests/CMakeFiles/tests.dir/__/circle.cpp.o	5cade796c89a5dd5
 2	74	1650109248365786603	tests/CMakeFiles/tests.dir/__/circle.cpp.o	5cade796c89a5dd5
+18	420	1650109772254863085	tests/CMakeFiles/tests.dir/__/circle.cpp.o	5cade796c89a5dd5
+35	2007	1650110040738686582	tests/CMakeFiles/tests.dir/__/shapecomposite.cpp.o	5a9b12d85fa470c9
+31	4684	1650110043406722974	tests/CMakeFiles/tests.dir/shapesTests.cpp.o	3c071395ad32742e
+4691	5249	1650110043974730719	bin/tests	8980dd746c7e8c05
