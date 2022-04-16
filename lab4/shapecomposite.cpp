@@ -1,6 +1,13 @@
 #include "shapecomposite.h"
 
 bool Shapes::ShapeComposite::isIn(int x, int y) const {
-    /** @TODO **/
+    switch (shapeOperation) {
+        case ShapeOperation::SUM:
+            return shape1->isIn(x,y) || shape2->isIn(x,y);
+        case ShapeOperation::DIFFERENCE:
+            return shape1->isIn(x,y) && !shape2->isIn(x,y);
+        case ShapeOperation::INTERSECTION:
+            return shape1->isIn(x,y) && shape2->isIn(x,y);
+    }
     return false;
 }
